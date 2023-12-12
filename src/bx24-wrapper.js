@@ -34,7 +34,7 @@ class BX24Wrapper {
          * Проверка загрузки стандартной библиотеки Битрикс24.
          * <script src="//api.bitrix24.com/api/v1/"></script>
          */
-        if (! window.BX24) {
+        if (! window.BX.rest) {
             throw "Can't find BX24 libary! See https://dev.1c-bitrix.ru/rest_help/js_library/index.php";
         }
 
